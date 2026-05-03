@@ -298,5 +298,5 @@ def web_service_API_POST():
     
 
 if __name__ == "__main__":   # run code 
-    app.run(host='localhost',debug=True,port=5001)#host='0.0.0.0' = run on internet ,port=5001
+    app.run(host='0.0.0.0',debug=True,port=5001)#host='0.0.0.0' = run on internet ,port=5001
     
